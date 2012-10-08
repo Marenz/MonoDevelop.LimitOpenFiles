@@ -6,7 +6,7 @@
        url         = ""
        description = "Limits the amount of concurrent open files"
        category    = "Source Editor Extensions"
-       version     = "0.1">
+       version     = "0.2">
               
     <Dependencies>
         <Addin id="::MonoDevelop.Ide" version="3.1"/>
@@ -14,6 +14,15 @@
 
     <Extension path = "/MonoDevelop/Ide/StartupHandlers">
         <Class class="MonoDevelop.LimitOpenFiles.LimitOpenFiles" />
+    </Extension>
+        
+    <Extension path = "/MonoDevelop/Ide/GlobalOptionsDialog/TextEditor">
+        <Section id = "LimitOpenFiles" 
+                 insertbefore="Formatting" 
+                 _label = "Limit Open Files" 
+                 icon="md-text-editor" 
+                 fill="true" 
+                 class = "MonoDevelop.LimitOpenFiles.OptionsPanel"/>        
     </Extension>
     
 </Addin>
