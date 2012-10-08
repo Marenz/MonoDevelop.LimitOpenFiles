@@ -1,0 +1,19 @@
+<Addin namespace   = "MonoDevelop"
+       id          = "LimitOpenFiles"
+       name        = "Limit open Files"
+       author      = "Mathias L. Baumann"
+       copyright   = "MIT/X11"
+       url         = ""
+       description = "Limits the amount of concurrent open files"
+       category    = "Source Editor Extensions"
+       version     = "0.1">
+              
+    <Dependencies>
+        <Addin id="::MonoDevelop.Ide" version="3.1"/>
+    </Dependencies>
+
+    <Extension path = "/MonoDevelop/Ide/StartupHandlers">
+        <Class class="MonoDevelop.LimitOpenFiles.LimitOpenFiles" />
+    </Extension>
+    
+</Addin>
