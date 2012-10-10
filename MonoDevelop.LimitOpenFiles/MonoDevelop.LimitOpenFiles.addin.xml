@@ -3,7 +3,7 @@
        name        = "Limit open Files"
        author      = "Mathias L. Baumann"
        copyright   = "MIT/X11"
-       url         = ""
+       url         = "https://github.com/Marenz/MonoDevelop.LimitOpenFiles"
        description = "Limits the amount of concurrent open files"
        category    = "Source Editor Extensions"
        version     = "0.2">
