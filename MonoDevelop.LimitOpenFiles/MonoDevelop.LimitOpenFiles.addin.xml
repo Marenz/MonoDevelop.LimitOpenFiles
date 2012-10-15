@@ -1,7 +1,7 @@
 <Addin namespace   = "MonoDevelop"
        id          = "LimitOpenFiles"
        name        = "Limit open Files"
-       author      = "Mathias L. Baumann"
+       author      = "Mathias L. Baumann 'Marenz'"
        copyright   = "MIT/X11"
        url         = "https://github.com/Marenz/MonoDevelop.LimitOpenFiles"
        description = "Limits the amount of concurrent open files"

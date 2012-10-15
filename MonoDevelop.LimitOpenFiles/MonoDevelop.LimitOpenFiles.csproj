@@ -62,6 +62,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <EmbeddedResource Include="addin-project.xml" />
+    <EmbeddedResource Include="MonoDevelop.LimitOpenFiles.addin.xml" />
   </ItemGroup>
 </Project>
